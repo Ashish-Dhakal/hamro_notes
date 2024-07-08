@@ -1,0 +1,39 @@
+name: hamro_notes
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_pdfview: ^1.0.0+13
+  path_provider: ^2.0.11
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/  
+    - assets/harvard_course1.pdf
+    - assets/harvard_course2.pdf
+    - assets/harvard_course3.pdf
+    - assets/stanford_courseA.pdf
+    - assets/stanford_courseB.pdf
+    - assets/stanford_courseC.pdf
+    - assets/mit_courseX.pdf
+    - assets/mit_courseY.pdf
+    - assets/mit_courseZ.pdf
+    - assets/cambridge_course_alpha.pdf
+    - assets/cambridge_course_beta.pdf
+    - assets/cambridge_course_gamma.pdf
+    - assets/oxford_course101.pdf
+    - assets/oxford_course102.pdf
+    - assets/oxford_course103.pdf
